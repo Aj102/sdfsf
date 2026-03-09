@@ -1,0 +1,170 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+.zorobg{
+    position: absolute;
+    right:0;
+    bottom:0;
+    z-index: -1;
+
+}
+
+@media (min-aspect-ratio: 16/9) {
+
+    .zorobg{
+        width: 100%;
+        height:auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .zorobg{
+        width: auto;
+        height:100%;
+    }
+
+
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    font-family: "Changa One", sans-serif;
+
+}
+
+#Greetings{
+    margin-top: 17%;
+
+
+
+}
+#greet{
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+
+
+}
+h2{ 
+    color:white;
+    font-size: 50px;
+    animation: title 3s 1;
+    margin-left: 10px;
+    
+    
+}
+
+#wel{
+    animation: wel 3s 1;
+    position: sticky;
+}
+@keyframes wel {
+    0% {
+        opacity:0%;
+        letter-spacing: 5px;
+    }
+}
+#to{
+    animation: to 3s 1;
+    position: sticky;
+}
+@keyframes to {
+    0% {
+        opacity:0%;
+    }
+    10% {
+        opacity:0%;
+        letter-spacing: 5px;
+    }
+}
+#my{
+    animation: my 3s 1;
+    position: sticky;
+}
+@keyframes my {
+    0% {
+        opacity:0%;
+    }
+    20% {
+        opacity:0%;
+        letter-spacing: 5px;
+    }
+}
+#web{
+      animation: web 3s 1;
+      position: sticky;
+      
+}
+@keyframes web {
+    0% {
+        opacity:0%;
+    }
+    30% {
+        opacity:0%;
+        letter-spacing: 5px;
+    }
+}
+
+
+
+
+p{
+        color:white;
+        font-size: 30px;
+        animation: ict 2s 1;
+        position: sticky;
+}
+@keyframes ict {
+     0% {
+        opacity:0%;
+    }
+    40% {
+        opacity:0%;
+        color: black;
+        letter-spacing: 5px;
+    }
+}
+a{  
+
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+    transition: 0.5s;
+    animation: click 2s 1;
+}
+
+a:hover{
+    padding: 35px;
+    background-color: black;
+    border-radius: 10px;
+    color:#00a700 ;
+    text-shadow: 2px 2px 2px #ffffff;
+
+}
+@keyframes click {
+     0% {
+        opacity:0%;
+    }
+    70% {
+        opacity:0%;
+        color: black;
+        font-size:50px;
+        letter-spacing: 5px;
+    }
+}
+
+#Greetings {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 2px #00a700;
+}
